@@ -1,0 +1,233 @@
+/*================ Normal desktop :992px.==================== */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    
+    .about-left {
+        vertical-align:  middle;
+    }
+
+    
+}
+/*================ Tablet desktop :768px.==================*/
+@media (min-width: 768px) and (max-width: 991px) {	
+
+    .navbar-collapse{
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner-welcome > h3{
+        font-size: 60px;
+        font-weight: 600
+    }
+    .about-left li{
+        display: block;
+        width: 100%
+    }
+    .single-service{
+        padding: 20px;
+    }
+    .single-service > h4{
+        font-size: 16px
+    }
+    nav.fixed-top .nav-item .nav-link{
+        color: #fff !important
+    }
+
+    .about_contents {
+      display: block;
+    }
+
+}
+/*================== small mobile :320px. ===================*/
+@media (max-width: 767px) {		
+	
+    .navbar-collapse {
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner-welcome > h3{
+        font-size: 30px;
+        font-weight: 600
+    }
+    .caption-inner span{
+        font-size: 18px
+    }
+    .about-left li{
+        width: 100%;
+        display: block
+    }
+    .skills-prog.half{
+        margin-top: 50px
+    }
+    .site-heading > h2{
+        font-size: 28px
+    }
+    /* .site-heading > h2::before{
+        display: none
+    }
+    .site-heading > h2::after{
+        display: none
+    } */
+    .portfolio-filter ul li{
+        display: block;
+        margin-bottom: 2px
+    }
+    .hire-box > h2{
+        font-size: 26px
+    }
+   
+    .about_contents {
+        display: block;
+      }
+  
+      .about_contents,
+      .about_contentRight,
+      .about_contentLeft {
+        width: 30%;
+      }
+
+      .border {
+          margin-top: 28px;
+      }
+
+      .box_text {
+        padding-bottom: 45px;
+      }
+
+      .box_text>h3 {
+          padding-bottom: 18px;
+          text-align: center;
+      }
+
+      .about-left {
+        padding-left: 30px;
+    }
+
+    .heading1,
+.heading2 {
+	position: relative;
+	padding-top: 40px;
+	padding-left: 30px;
+	font-size: 26px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.heading1::before {
+	content: attr(data-en);
+	position: absolute;
+	transform: rotate(-5deg);
+	top: -10px;
+	left: 0;
+	color: #f4f4f4;
+	font-size: 65px;
+	font-weight: 400;
+	font-family: 'Great Vibes', cursive;
+	font-style: italic;
+	z-index: 2;
+}
+
+.heading2::before {
+  content: attr(data-en);
+	position: absolute;
+	transform: rotate(-5deg);
+	top: -10px;
+	left: 0;
+	color: #fff;
+	font-size: 65px;
+	font-weight: 400;
+	font-family: 'Great Vibes', cursive;
+	font-style: italic;
+	z-index: 2;
+}
+
+    
+ 
+
+}
+/* ======================Large Mobile :480px.================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+    .navbar-collapse {
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner-welcome > h3{
+        font-size: 30px;
+        font-weight: 600
+    }
+    .caption-inner span{
+        font-size: 18px
+    }
+    .about-left li{
+        width: 100%;
+        display: block
+    }
+    .skills-prog.half{
+        margin-top: 50px
+    }
+    .site-heading > h2{
+        font-size: 28px
+    }
+    /* .site-heading > h2::before{
+        display: none
+    }
+    .site-heading > h2::after{
+        display: none
+    } */
+    .portfolio-filter ul li{
+        display: block;
+        margin-bottom: 2px
+    }
+    .hire-box > h2{
+        font-size: 26px
+    }
+    nav.fixed-top .nav-item .nav-link{
+        color:#fff !important
+    }
+
+    
+
+}
